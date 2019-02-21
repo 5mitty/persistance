@@ -12,6 +12,7 @@
 		5623BCAE221DC86600A69E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5623BCAC221DC86600A69E4A /* Main.storyboard */; };
 		5623BCB0221DC86A00A69E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5623BCAF221DC86A00A69E4A /* Assets.xcassets */; };
 		5623BCB3221DC86A00A69E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5623BCB1221DC86A00A69E4A /* LaunchScreen.storyboard */; };
+		5623BCBB221DC8DA00A69E4A /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5623BCBA221DC8DA00A69E4A /* Persistance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5623BCAF221DC86A00A69E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5623BCB2221DC86A00A69E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5623BCB4221DC86A00A69E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5623BCBA221DC8DA00A69E4A /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				5623BCA8221DC86600A69E4A /* AppDelegate.swift */,
 				5623BCAA221DC86600A69E4A /* ViewController.swift */,
+				5623BCBA221DC8DA00A69E4A /* Persistance.swift */,
 				5623BCAC221DC86600A69E4A /* Main.storyboard */,
 				5623BCAF221DC86A00A69E4A /* Assets.xcassets */,
 				5623BCB1221DC86A00A69E4A /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				5623BCAB221DC86600A69E4A /* ViewController.swift in Sources */,
 				5623BCA9221DC86600A69E4A /* AppDelegate.swift in Sources */,
+				5623BCBB221DC8DA00A69E4A /* Persistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
